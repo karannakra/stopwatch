@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="styling.css" rel="stylesheet" type="text/css">
+    <title>stopwatch</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="../ES-6.js"></script>
+
+    <!--    <script src="js/bootstrap.min.js"></script>-->
+<!--    <link rel="stylesheet" href="css/bootstrap.min.css">-->
+</head>
+<body>
+<!--title-->
+<div class="container-fluid">
+    <div id="header">Stopwatch</div>
+<!--    lap Time-->
+<div id="lap">
+    <span id="lapmin">00</span>:
+    <span id="lapsec">00</span>:
+    <span id="lapcentisecond">00</span>
+</div>
+<!--Time-->
+    <div id="time">
+    <span id="timemin">00</span>:
+    <span id="timesec">00</span>:
+    <span id="timecentisecond">00</span>
+</div>
+<!--    controls-->
+<div class="row mb-5" id="controlcontainer"  >
+    <div class="col-2 offset-4">
+        <div id="start-button" class="custom-control " style="text-align: center">
+        start
+        </div>
+        <div id="stop-button" class="custom-control">
+        stop
+        </div>
+        <div id="resume-button" class="custom-control">
+        resume
+        </div>
+    </div>
+    <div class="col-2">
+        <div id="lap-button" class="custom-control">
+        Lap
+        </div>
+        <div id="reset-button" class="custom-control">
+        reset
+        </div>
+    </div>
+
+</div>
+    <div id="lapse">
+
+
+    </div>
+</div>
+<script src="stopwatch.js"></script>
+</body>
+</html>
